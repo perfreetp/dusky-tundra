@@ -1,0 +1,42 @@
+:root {
+  color-scheme: dark;
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: #0d1015;
+  color: #dde3ea;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  font-size: 13px;
+}
+#app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+button {
+  background: #1f2733;
+  color: #dde3ea;
+  border: 1px solid #2e3a4c;
+  border-radius: 4px;
+  padding: 4px 10px;
+  cursor: pointer;
+  font-size: 12px;
+  white-space: nowrap;
+}
+button:hover {
+  background: #273244;
+}
+button.active {
+  background: #2f6fed;
+  border-color: #2f6fed;
+  color: #fff;
+}
+input[type='range'] {
+  width: 100%;
+  accent-color: #2f6fed;
+}
