@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/components/pixistage.tsx","./src/components/rightpanel.tsx","./src/components/timeline.tsx","./src/components/toolbar.tsx","./src/model/demo.ts","./src/model/navgrid.ts","./src/model/types.ts","./src/sim/engine.ts","./src/utils/export.ts"],"version":"5.9.3"}
